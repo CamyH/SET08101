@@ -1,0 +1,39 @@
+/*Text*/
+h1, h2, p, ol, li {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+/*Nav*/
+nav {
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    font-size: 1.5em;
+}
+.navBar {
+    display: inline;
+}
+a {
+    padding: 8px;
+}
+.navBar, a {
+    color: black;
+}
+/*Image*/
+.LH44 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/*Team List*/
+ol, li {
+    font-size: 1em;
+    padding: 5px;
+    list-style-position: inside;
+    margin-left: auto;
+    margin-right: auto;
+}
