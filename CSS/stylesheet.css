@@ -1,3 +1,40 @@
+/*Grid Layout*/
+.grid-container-index, .grid-container-teams, .grid-container-tracks {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 20px;
+}
+.grid-container-index, .grid-container-teams, .grid-container-tracks > div {
+    text-align: center;
+    padding: 20px 0;
+}
+.grid-image1, .grid-image2 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.grid-item1, .grid-item2, .grid-item3 {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.grid-container-teams, .grid-container-tracks { grid-template-columns: auto; }
+
+.grid-items-teams {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 8px solid rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    font-size: 20px;
+}
+/*Tracks Page*/
+ol > li {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 8px solid rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
 /*Text*/
 h1, h2, p, ol, li {
     font-family: 'Courier New', Courier, monospace;
@@ -22,8 +59,8 @@ a {
 .navBar, a {
     color: black;
 }
-/*Image*/
-.LH44 {
+/*Images*/
+#LH44, #GaslySainzMonza {
     display: block;
     margin-left: auto;
     margin-right: auto;
