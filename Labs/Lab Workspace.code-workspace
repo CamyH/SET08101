@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
-		"html.format.indentInnerHtml": true
+		"html.format.indentInnerHtml": true,
+		"liveServer.settings.port": 5501
 	}
 }
